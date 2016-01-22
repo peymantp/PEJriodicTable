@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PEJriodicTable.iml" filepath="$PROJECT_DIR$/PEJriodicTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hydra.iml" filepath="$PROJECT_DIR$/hydra.iml" />
     </modules>
   </component>
 </project>
