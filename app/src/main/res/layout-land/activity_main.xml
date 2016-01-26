@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:weightSum="6">
+    android:weightSum="6"
+    android:background="#e36464">
 
 
     <LinearLayout
@@ -87,7 +88,7 @@
         <LinearLayout
             android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:layout_weight="8"
+            android:layout_weight="10"
             android:orientation="vertical"
             android:weightSum="3">
 
@@ -108,52 +109,14 @@
                 android:orientation="horizontal"
                 android:weightSum="8">
 
-                <!--<Button
+                <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
+                    android:layout_weight="5"/>
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="H"/>-->
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_vertical_margin"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="H" />
@@ -166,20 +129,6 @@
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:weightSum="8">
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
-                    android:text="H" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
-                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
@@ -231,20 +180,6 @@
                 android:layout_weight="1"
                 android:orientation="horizontal"
                 android:weightSum="8">
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
-                    android:text="H" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
-                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
