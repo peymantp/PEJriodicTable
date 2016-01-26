@@ -1,79 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     android:weightSum="6">
 
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0px"
-        android:orientation="horizontal"
         android:layout_weight="3"
+        android:orientation="horizontal"
         android:weightSum="18">
 
         <LinearLayout
             android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_weight="2"
+            android:orientation="vertical"
             android:weightSum="3">
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="2">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="2">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="2">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
@@ -82,10 +87,9 @@
         <LinearLayout
             android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_weight="8"
+            android:orientation="vertical"
             android:weightSum="3">
-
 
 
         </LinearLayout>
@@ -93,15 +97,15 @@
         <LinearLayout
             android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_weight="8"
+            android:orientation="vertical"
             android:weightSum="3">
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="8">
 
                 <!--<Button
@@ -149,123 +153,140 @@
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
                     android:layout_weight="1"
-                    android:text="H"
-                    android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="8">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0px"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="8">
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="H"/>
+                    android:background="@drawable/table_buttons"
+                    android:text="H" />
 
             </LinearLayout>
 
@@ -274,353 +295,407 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="0px"
         android:layout_weight="1"
+        android:orientation="horizontal"
         android:weightSum="18">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="0px"
         android:layout_weight="1"
+        android:orientation="horizontal"
         android:weightSum="18">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
-            <Button
+        <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="0px"
         android:layout_weight="1"
+        android:orientation="horizontal"
         android:weightSum="18">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"/>
+            android:background="@drawable/table_buttons"
+            android:text="H" />
 
     </LinearLayout>
 
