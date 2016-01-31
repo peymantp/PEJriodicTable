@@ -165,7 +165,8 @@
                         android:paddingLeft="5dp"
                         android:paddingTop="5dp"
                         android:clickable="true"
-                        android:id="@+id/big1" />
+                        android:id="@+id/big1"
+                        android:onClick="onClickBigButton" />
 
                     <Button
                         android:layout_width="0dp"
@@ -189,7 +190,8 @@
                         android:paddingLeft="5dp"
                         android:paddingTop="5dp"
                         android:clickable="true"
-                        android:id="@+id/big2" />
+                        android:id="@+id/big2"
+                        android:onClick="onClickBigButton" />
 
                 </LinearLayout>
 
@@ -874,7 +876,8 @@
             android:text="73\nTa"
             android:id="@+id/e73"
             android:onClick="onClick"
-            android:clickable="true" />
+            android:clickable="true"
+            android:tag="e73" />
 
         <Button
             android:layout_width="0dp"
