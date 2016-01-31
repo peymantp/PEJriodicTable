@@ -39,7 +39,10 @@
                     android:background="@drawable/table_buttons"
                     android:text="1\nH"
                     android:textAllCaps="false"
-                    android:id="@+id/e1" />
+                    android:id="@+id/e1"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e1" />
 
             </LinearLayout>
 
@@ -59,7 +62,8 @@
                     android:text="3\nLi"
                     android:id="@+id/e3"
                     android:clickable="true"
-                    android:onClick="onClick" />
+                    android:onClick="onClick"
+                    android:tag="e3" />
 
                 <Button
                     android:layout_width="0dp"
@@ -69,7 +73,8 @@
                     android:text="4\nBe"
                     android:id="@+id/e4"
                     android:clickable="true"
-                    android:onClick="onClick" />
+                    android:onClick="onClick"
+                    android:tag="e4" />
 
             </LinearLayout>
 
@@ -89,7 +94,8 @@
                     android:text="11\nNa"
                     android:id="@+id/e11"
                     android:clickable="true"
-                    android:onClick="onClick" />
+                    android:onClick="onClick"
+                    android:tag="e11" />
 
                 <Button
                     android:layout_width="0dp"
@@ -99,7 +105,8 @@
                     android:text="12\nMg"
                     android:id="@+id/e12"
                     android:clickable="true"
-                    android:onClick="onClick" />
+                    android:onClick="onClick"
+                    android:tag="e12" />
 
             </LinearLayout>
 
@@ -235,7 +242,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="2\nHe"
-                    android:id="@+id/e2" />
+                    android:id="@+id/e2"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e2" />
 
             </LinearLayout>
 
@@ -253,7 +263,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="5\nB"
-                    android:id="@+id/e5" />
+                    android:id="@+id/e5"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e5" />
 
                 <Button
                     android:layout_width="0dp"
@@ -261,7 +274,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="6\nC"
-                    android:id="@+id/e6" />
+                    android:id="@+id/e6"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e6" />
 
                 <Button
                     android:layout_width="0dp"
@@ -269,7 +285,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="7\nN"
-                    android:id="@+id/e7" />
+                    android:id="@+id/e7"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e7" />
 
                 <Button
                     android:layout_width="0dp"
@@ -277,7 +296,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="8\nO"
-                    android:id="@+id/e8" />
+                    android:id="@+id/e8"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e8" />
 
                 <Button
                     android:layout_width="0dp"
@@ -285,7 +307,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="9\nF"
-                    android:id="@+id/e9" />
+                    android:id="@+id/e9"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e9" />
 
                 <Button
                     android:layout_width="0dp"
@@ -293,7 +318,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="10\nNe"
-                    android:id="@+id/e10" />
+                    android:id="@+id/e10"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e10" />
 
             </LinearLayout>
 
@@ -311,7 +339,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="13\nAl"
-                    android:id="@+id/e13" />
+                    android:id="@+id/e13"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e13" />
 
                 <Button
                     android:layout_width="0dp"
@@ -319,7 +350,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="14\nSi"
-                    android:id="@+id/e14" />
+                    android:id="@+id/e14"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e14" />
 
                 <Button
                     android:layout_width="0dp"
@@ -327,7 +361,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="15\nP"
-                    android:id="@+id/e15" />
+                    android:id="@+id/e15"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e15" />
 
                 <Button
                     android:layout_width="0dp"
@@ -335,14 +372,20 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="16\nS"
-                    android:id="@+id/e16" />
+                    android:id="@+id/e16"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e16" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="17\nCl" />
+                    android:text="17\nCl"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e17" />
 
                 <Button
                     android:layout_width="0dp"
@@ -350,7 +393,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="18\nAr"
-                    android:id="@+id/e18" />
+                    android:id="@+id/e18"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:tag="e18" />
 
             </LinearLayout>
 
@@ -372,7 +418,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="19\nK"
-            android:id="@+id/e19" />
+            android:id="@+id/e19"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e19" />
 
         <Button
             android:layout_width="0dp"
@@ -380,7 +429,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="20\nCa"
-            android:id="@+id/e20" />
+            android:id="@+id/e20"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e20" />
 
         <Button
             android:layout_width="0dp"
@@ -388,7 +440,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="21\nSc"
-            android:id="@+id/e21" />
+            android:id="@+id/e21"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e21" />
 
         <Button
             android:layout_width="0dp"
@@ -396,7 +451,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="22\nTi"
-            android:id="@+id/e22" />
+            android:id="@+id/e22"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e22" />
 
         <Button
             android:layout_width="0dp"
@@ -404,7 +462,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="23\nV"
-            android:id="@+id/e23"/>
+            android:id="@+id/e23"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e23" />
 
         <Button
             android:layout_width="0dp"
@@ -412,7 +473,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="24\nCr"
-            android:id="@+id/e24" />
+            android:id="@+id/e24"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e24" />
 
         <Button
             android:layout_width="0dp"
@@ -420,7 +484,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="25\nMn"
-            android:id="@+id/e25"/>
+            android:id="@+id/e25"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e25" />
 
         <Button
             android:layout_width="0dp"
@@ -428,7 +495,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="26\nFe"
-            android:id="@+id/e26" />
+            android:id="@+id/e26"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e26" />
 
         <Button
             android:layout_width="0dp"
@@ -436,7 +506,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="27\nCo"
-            android:id="@+id/e27"/>
+            android:id="@+id/e27"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e27" />
 
         <Button
             android:layout_width="0dp"
@@ -444,7 +517,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="28\nNi"
-            android:id="@+id/e28" />
+            android:id="@+id/e28"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e28" />
 
         <Button
             android:layout_width="0dp"
@@ -452,7 +528,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="29\nCu"
-            android:id="@+id/e29" />
+            android:id="@+id/e29"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e29" />
 
         <Button
             android:layout_width="0dp"
@@ -460,7 +539,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="30\nZn"
-            android:id="@+id/e30" />
+            android:id="@+id/e30"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e30" />
 
         <Button
             android:layout_width="0dp"
@@ -468,7 +550,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="31\nGa"
-            android:id="@+id/e31" />
+            android:id="@+id/e31"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e31" />
 
         <Button
             android:layout_width="0dp"
@@ -476,7 +561,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="32\nGe"
-            android:id="@+id/e32" />
+            android:id="@+id/e32"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e32" />
 
         <Button
             android:layout_width="0dp"
@@ -484,7 +572,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="33\nAs"
-            android:id="@+id/e33" />
+            android:id="@+id/e33"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e33" />
 
         <Button
             android:layout_width="0dp"
@@ -492,7 +583,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="34\nSe"
-            android:id="@+id/e34" />
+            android:id="@+id/e34"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e34" />
 
         <Button
             android:layout_width="0dp"
@@ -500,7 +594,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="35\nBr"
-            android:id="@+id/e35" />
+            android:id="@+id/e35"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e35" />
 
         <Button
             android:layout_width="0dp"
@@ -508,7 +605,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="36\nKr"
-            android:id="@+id/e36" />
+            android:id="@+id/e36"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e36" />
 
     </LinearLayout>
 
@@ -526,7 +626,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="37\nRb"
-            android:id="@+id/e37" />
+            android:id="@+id/e37"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e37" />
 
         <Button
             android:layout_width="0dp"
@@ -534,7 +637,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="38\nSr"
-            android:id="@+id/e38" />
+            android:id="@+id/e38"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e38" />
 
         <Button
             android:layout_width="0dp"
@@ -542,7 +648,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="39\nY"
-            android:id="@+id/e39" />
+            android:id="@+id/e39"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e39" />
 
         <Button
             android:layout_width="0dp"
@@ -550,7 +659,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="40\nZr"
-            android:id="@+id/e40" />
+            android:id="@+id/e40"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e40" />
 
         <Button
             android:layout_width="0dp"
@@ -558,7 +670,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="41\nNb"
-            android:id="@+id/e41" />
+            android:id="@+id/e41"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e41" />
 
         <Button
             android:layout_width="0dp"
@@ -566,7 +681,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="42\nMo"
-            android:id="@+id/e42" />
+            android:id="@+id/e42"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e42" />
 
         <Button
             android:layout_width="0dp"
@@ -574,7 +692,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="43\nTc"
-            android:id="@+id/e43" />
+            android:id="@+id/e43"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e43" />
 
         <Button
             android:layout_width="0dp"
@@ -582,7 +703,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="44\nRu"
-            android:id="@+id/e44" />
+            android:id="@+id/e44"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e44" />
 
         <Button
             android:layout_width="0dp"
@@ -590,7 +714,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="45\nRh"
-            android:id="@+id/e45" />
+            android:id="@+id/e45"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e45" />
 
         <Button
             android:layout_width="0dp"
@@ -598,7 +725,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="46\nPd"
-            android:id="@+id/e46" />
+            android:id="@+id/e46"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e46" />
 
         <Button
             android:layout_width="0dp"
@@ -606,7 +736,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="47\nAg"
-            android:id="@+id/e47" />
+            android:id="@+id/e47"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e47" />
 
         <Button
             android:layout_width="0dp"
@@ -614,7 +747,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="48\nCd"
-            android:id="@+id/e48" />
+            android:id="@+id/e48"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e48" />
 
         <Button
             android:layout_width="0dp"
@@ -622,7 +758,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="49\nIn"
-            android:id="@+id/e49" />
+            android:id="@+id/e49"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e49" />
 
         <Button
             android:layout_width="0dp"
@@ -630,7 +769,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="50\nSn"
-            android:id="@+id/e50" />
+            android:id="@+id/e50"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e50" />
 
         <Button
             android:layout_width="0dp"
@@ -638,7 +780,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="51\nSb"
-            android:id="@+id/e51" />
+            android:id="@+id/e51"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e51" />
 
         <Button
             android:layout_width="0dp"
@@ -646,7 +791,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="52\nTe"
-            android:id="@+id/e52" />
+            android:id="@+id/e52"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e52" />
 
         <Button
             android:layout_width="0dp"
@@ -654,7 +802,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="53\nI"
-            android:id="@+id/e53" />
+            android:id="@+id/e53"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e53" />
 
         <Button
             android:layout_width="0dp"
@@ -662,7 +813,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="54\nXe"
-            android:id="@+id/e54" />
+            android:id="@+id/e54"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e54" />
 
     </LinearLayout>
 
@@ -680,7 +834,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="55\nCs"
-            android:id="@+id/e55" />
+            android:id="@+id/e55"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e55" />
 
         <Button
             android:layout_width="0dp"
@@ -688,7 +845,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="56\nBa"
-            android:id="@+id/e56" />
+            android:id="@+id/e56"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e56" />
 
         <Space
             android:layout_width="0dp"
@@ -701,7 +861,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="72\nHf"
-            android:id="@+id/e72" />
+            android:id="@+id/e72"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e72" />
 
         <Button
             android:layout_width="0dp"
@@ -709,7 +872,9 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="73\nTa"
-            android:id="@+id/e73" />
+            android:id="@+id/e73"
+            android:onClick="onClick"
+            android:clickable="true" />
 
         <Button
             android:layout_width="0dp"
@@ -717,7 +882,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="74\nW"
-            android:id="@+id/e74" />
+            android:id="@+id/e74"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e74" />
 
         <Button
             android:layout_width="0dp"
@@ -725,7 +893,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="75\nRe"
-            android:id="@+id/e75" />
+            android:id="@+id/e75"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e75" />
 
         <Button
             android:layout_width="0dp"
@@ -733,7 +904,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="76\nOs"
-            android:id="@+id/e76" />
+            android:id="@+id/e76"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e76" />
 
         <Button
             android:layout_width="0dp"
@@ -741,7 +915,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="77\nIr"
-            android:id="@+id/e77" />
+            android:id="@+id/e77"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e77" />
 
         <Button
             android:layout_width="0dp"
@@ -749,7 +926,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="78\nPt"
-            android:id="@+id/e78" />
+            android:id="@+id/e78"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e78" />
 
         <Button
             android:layout_width="0dp"
@@ -757,7 +937,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="79\nAu"
-            android:id="@+id/e79" />
+            android:id="@+id/e79"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e79" />
 
         <Button
             android:layout_width="0dp"
@@ -765,7 +948,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="80\nHg"
-            android:id="@+id/e80" />
+            android:id="@+id/e80"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e80" />
 
         <Button
             android:layout_width="0dp"
@@ -773,7 +959,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="81\nTl"
-            android:id="@+id/e81" />
+            android:id="@+id/e81"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e81" />
 
         <Button
             android:layout_width="0dp"
@@ -781,7 +970,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="82\nPb"
-            android:id="@+id/e82" />
+            android:id="@+id/e82"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e82" />
 
         <Button
             android:layout_width="0dp"
@@ -789,7 +981,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="83\nBi"
-            android:id="@+id/e83" />
+            android:id="@+id/e83"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e81" />
 
         <Button
             android:layout_width="0dp"
@@ -797,7 +992,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="84\nPo"
-            android:id="@+id/e84" />
+            android:id="@+id/e84"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e84" />
 
         <Button
             android:layout_width="0dp"
@@ -805,7 +1003,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="85\nAt"
-            android:id="@+id/e85" />
+            android:id="@+id/e85"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e85" />
 
         <Button
             android:layout_width="0dp"
@@ -813,7 +1014,10 @@
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
             android:text="86\nRn"
-            android:id="@+id/e86" />
+            android:id="@+id/e86"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:tag="e86" />
 
     </LinearLayout>
 
