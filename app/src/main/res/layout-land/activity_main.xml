@@ -166,7 +166,9 @@
                         android:paddingTop="5dp"
                         android:clickable="true"
                         android:id="@+id/big1"
-                        android:onClick="onClickBigButton" />
+                        android:onClick="onClickBigButton"
+                        android:textAllCaps="false"
+                        android:textSize="18dp" />
 
                     <Button
                         android:layout_width="0dp"
@@ -191,7 +193,9 @@
                         android:paddingTop="5dp"
                         android:clickable="true"
                         android:id="@+id/big2"
-                        android:onClick="onClickBigButton" />
+                        android:onClick="onClickBigButton"
+                        android:textAllCaps="false"
+                        android:textSize="18dp" />
 
                 </LinearLayout>
 
@@ -236,7 +240,11 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="5"/>
+                    android:layout_weight="5"
+                    android:text="PEJerino"
+                    android:textSize="20dp"
+                    android:longClickable="false"
+                    android:textStyle="bold" />
 
                 <Button
                     android:layout_width="0dp"
@@ -615,7 +623,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:weightSum="18"
