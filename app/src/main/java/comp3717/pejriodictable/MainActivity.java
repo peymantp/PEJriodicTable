@@ -12,12 +12,23 @@ import android.widget.Toast;
 import static android.app.PendingIntent.getActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    //left big button
+    Button bigButtonLeft;
+    private boolean bigButtonStateLeft = false;
+
+    //right big button
+    Button bigButtonRight;
+    private boolean bigButtonStateRight = false;
+
     View decorView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         decorView = (View)getWindow().getDecorView();
+        bigButtonLeft = (Button)findViewById(R.id.big1);
+        bigButtonRight = (Button)findViewById(R.id.big2);
     }
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -33,30 +44,43 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
-        //test function
         Button element = (Button)view;
-        Button replace = (Button)findViewById(R.id.big1);
-        String tag;
+        Button replace;
+        String tag, s;
         int ID;
-        String s;
+
+        if(!bigButtonStateLeft){
+            replace = bigButtonLeft;
+            bigButtonStateLeft = true;
+        } else {
+            replace = bigButtonRight;
+            bigButtonStateRight = true;
+        }
 
         for(int i = 1;i<87;i++){
             if(i==57)
                 i=72;
 
-            Log.d("ID","|"+element.getTag().toString()+"|");
             if(element.getTag().toString().equals("e"+i)) {
-                Log.d("ID","passed if");
                 tag = element.getTag().toString();
-                //ID = getResId(tag, String.class);
-                ID = getResources().getIdentifier(tag,  "string", getPackageName());
+                ID = getResources().getIdentifier(tag, "string", getPackageName());
                 s = getResources().getString(ID);
 
                 replace.setText(s);
-                Log.d("ID","e"+1);
+                Log.d("ID", "e" + i);  //button/string ID
                 break;
             }
         }
-        Log.d("ID","end");
+    }
+
+    public void onClickBigButton(View view){
+        Button button = (Button)view;
+
+        if(bigButtonLeft.equals(button))
+            bigButtonStateLeft = false;
+        else
+            bigButtonStateRight = false;
+
+        button.setText(R.string.bigB);
     }
 }
