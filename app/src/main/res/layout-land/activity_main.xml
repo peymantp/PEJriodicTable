@@ -117,7 +117,7 @@
             android:layout_height="match_parent"
             android:layout_weight="10"
             android:orientation="horizontal"
-            android:weightSum="18"
+            android:weightSum="36"
             android:id="@+id/L1.2">
 
             <LinearLayout
@@ -132,9 +132,9 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="16"
+                android:layout_weight="34"
                 android:orientation="vertical"
-                android:weightSum="10"
+                android:weightSum="18"
                 android:id="@+id/L1.2.2">
 
                 <LinearLayout
@@ -149,7 +149,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="8"
+                    android:layout_weight="11"
                     android:orientation="horizontal"
                     android:weightSum="8"
                     android:id="@+id/L1.2.2.2">
@@ -162,24 +162,25 @@
                         android:textAlignment="viewStart"
                         android:gravity="start"
                         android:text="@string/bigB"
-                        android:paddingLeft="5dp"
-                        android:paddingTop="5dp"
+                        android:paddingLeft="4dp"
                         android:clickable="true"
                         android:id="@+id/big1"
                         android:onClick="onClickBigButton"
                         android:textAllCaps="false"
                         android:textSize="18dp" />
 
-                    <Button
+                    <TextView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:text="+"
-                        android:textSize="100dp"
+                        android:textStyle="bold"
+                        android:text="T\n▼"
+                        android:lineSpacingMultiplier="0.35"
+                        android:textSize="50dp"
                         android:textAlignment="center"
-                        android:gravity="center"
-                        android:background="@android:color/transparent"
-                        android:clickable="true" />
+                        android:gravity="bottom"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/transparent"/>
 
                     <Button
                         android:layout_width="0dp"
@@ -189,8 +190,7 @@
                         android:textAlignment="viewStart"
                         android:gravity="start"
                         android:text="@string/bigB"
-                        android:paddingLeft="5dp"
-                        android:paddingTop="5dp"
+                        android:paddingLeft="4dp"
                         android:clickable="true"
                         android:id="@+id/big2"
                         android:onClick="onClickBigButton"
@@ -202,9 +202,75 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="6"
+                    android:weightSum="10"
                     android:orientation="horizontal"
                     android:id="@+id/L1.2.2.3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:weightSum="8"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:weightSum="8"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="6">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="6"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/table_buttons"
+                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:text="COMBINE"
+                                android:clickable="true"
+                                android:onClick="onClickCombine"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="6">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:weightSum="8"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -241,6 +307,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
+                    android:textAlignment="center"
+                    android:gravity="center"
                     android:text="PEJerino"
                     android:textSize="20dp"
                     android:longClickable="false"
