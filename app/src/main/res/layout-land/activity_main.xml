@@ -38,7 +38,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
                     android:text="1\nH"
-                    android:textAllCaps="false"/>
+                    android:textAllCaps="false"
+                    android:id="@+id/e1" />
 
             </LinearLayout>
 
@@ -55,14 +56,16 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="3\nLi" />
+                    android:text="3\nLi"
+                    android:id="@+id/e3" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="4\nBe" />
+                    android:text="4\nBe"
+                    android:id="@+id/e4" />
 
             </LinearLayout>
 
@@ -79,14 +82,16 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="11\nNa" />
+                    android:text="11\nNa"
+                    android:id="@+id/e11" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="12\nMg" />
+                    android:text="12\nMg"
+                    android:id="@+id/e12" />
 
             </LinearLayout>
 
@@ -218,7 +223,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="2\nHe" />
+                    android:text="2\nHe"
+                    android:id="@+id/e2" />
 
             </LinearLayout>
 
@@ -235,42 +241,48 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="5\nB" />
+                    android:text="5\nB"
+                    android:id="@+id/e5" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="6\nC" />
+                    android:text="6\nC"
+                    android:id="@+id/e6" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="7\nN" />
+                    android:text="7\nN"
+                    android:id="@+id/e7" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="8\nO" />
+                    android:text="8\nO"
+                    android:id="@+id/e8" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="9\nF" />
+                    android:text="9\nF"
+                    android:id="@+id/e9" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="10\nNe" />
+                    android:text="10\nNe"
+                    android:id="@+id/e10" />
 
             </LinearLayout>
 
@@ -287,28 +299,32 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="13\nAl" />
+                    android:text="13\nAl"
+                    android:id="@+id/e13" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="14\nSi" />
+                    android:text="14\nSi"
+                    android:id="@+id/e14" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="15\nP" />
+                    android:text="15\nP"
+                    android:id="@+id/e15" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="16\nS" />
+                    android:text="16\nS"
+                    android:id="@+id/e16" />
 
                 <Button
                     android:layout_width="0dp"
@@ -322,7 +338,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@drawable/table_buttons"
-                    android:text="18\nAr" />
+                    android:text="18\nAr"
+                    android:id="@+id/e18" />
 
             </LinearLayout>
 
@@ -343,126 +360,144 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="19\nK" />
+            android:text="19\nK"
+            android:id="@+id/e19" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="20\nCa" />
+            android:text="20\nCa"
+            android:id="@+id/e20" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="21\nSc" />
+            android:text="21\nSc"
+            android:id="@+id/e21" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="22\nTi" />
+            android:text="22\nTi"
+            android:id="@+id/e22" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="23\nV" />
+            android:text="23\nV"
+            android:id="@+id/e23"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="24\nCr" />
+            android:text="24\nCr"
+            android:id="@+id/e24" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="25\nMn" />
+            android:text="25\nMn"
+            android:id="@+id/e25"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="26\nFe" />
+            android:text="26\nFe"
+            android:id="@+id/e26" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="27\nCo" />
+            android:text="27\nCo"
+            android:id="@+id/e27"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="28\nNi" />
+            android:text="28\nNi"
+            android:id="@+id/e28" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="29\nCu" />
+            android:text="29\nCu"
+            android:id="@+id/e29" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="30\nZn" />
+            android:text="30\nZn"
+            android:id="@+id/e30" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="31\nGa" />
+            android:text="31\nGa"
+            android:id="@+id/e31" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="32\nGe" />
+            android:text="32\nGe"
+            android:id="@+id/e32" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="33\nAs" />
+            android:text="33\nAs"
+            android:id="@+id/e33" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="34\nSe" />
+            android:text="34\nSe"
+            android:id="@+id/e34" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="35\nBr" />
+            android:text="35\nBr"
+            android:id="@+id/e35" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="36\nKr" />
+            android:text="36\nKr"
+            android:id="@+id/e36" />
 
     </LinearLayout>
 
@@ -479,126 +514,144 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="37\nRb" />
+            android:text="37\nRb"
+            android:id="@+id/e37" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="38\nSr" />
+            android:text="38\nSr"
+            android:id="@+id/e38" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="39\nY" />
+            android:text="39\nY"
+            android:id="@+id/e39" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="40\nZr" />
+            android:text="40\nZr"
+            android:id="@+id/e40" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="41\nNb" />
+            android:text="41\nNb"
+            android:id="@+id/e41" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="42\nMo" />
+            android:text="42\nMo"
+            android:id="@+id/e42" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="43\nTc" />
+            android:text="43\nTc"
+            android:id="@+id/e43" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="44\nRu" />
+            android:text="44\nRu"
+            android:id="@+id/e44" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="45\nRh" />
+            android:text="45\nRh"
+            android:id="@+id/e45" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="46\nPd" />
+            android:text="46\nPd"
+            android:id="@+id/e46" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="47\nAg" />
+            android:text="47\nAg"
+            android:id="@+id/e47" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="48\nCd" />
+            android:text="48\nCd"
+            android:id="@+id/e48" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="49\nIn" />
+            android:text="49\nIn"
+            android:id="@+id/e49" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="50\nSn" />
+            android:text="50\nSn"
+            android:id="@+id/e50" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="51\nSb" />
+            android:text="51\nSb"
+            android:id="@+id/e51" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="52\nTe" />
+            android:text="52\nTe"
+            android:id="@+id/e52" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="53\nI" />
+            android:text="53\nI"
+            android:id="@+id/e53" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="54\nXe" />
+            android:text="54\nXe"
+            android:id="@+id/e54" />
 
     </LinearLayout>
 
@@ -615,125 +668,141 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="55\nCs" />
+            android:text="55\nCs"
+            android:id="@+id/e55" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="56\nBa" />
+            android:text="56\nBa"
+            android:id="@+id/e56" />
 
-        <Button
+        <Space
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/table_buttons" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/table_buttons"
-            android:text="72\nHf" />
+            android:layout_weight="1" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="73\nTa" />
+            android:text="72\nHf"
+            android:id="@+id/e72" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="74\nW" />
+            android:text="73\nTa"
+            android:id="@+id/e73" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="75\nRe" />
+            android:text="74\nW"
+            android:id="@+id/e74" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="76\nOs" />
+            android:text="75\nRe"
+            android:id="@+id/e75" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="77\nIr" />
+            android:text="76\nOs"
+            android:id="@+id/e76" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="78\nPt" />
+            android:text="77\nIr"
+            android:id="@+id/e77" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="79\nAu" />
+            android:text="78\nPt"
+            android:id="@+id/e78" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="80\nHg" />
+            android:text="79\nAu"
+            android:id="@+id/e79" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="81\nTl" />
+            android:text="80\nHg"
+            android:id="@+id/e80" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="82\nPb" />
+            android:text="81\nTl"
+            android:id="@+id/e81" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="83\nBi" />
+            android:text="82\nPb"
+            android:id="@+id/e82" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="84\nPo" />
+            android:text="83\nBi"
+            android:id="@+id/e83" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="85\nAt" />
+            android:text="84\nPo"
+            android:id="@+id/e84" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/table_buttons"
-            android:text="86\nRn" />
+            android:text="85\nAt"
+            android:id="@+id/e85" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/table_buttons"
+            android:text="86\nRn"
+            android:id="@+id/e86" />
 
     </LinearLayout>
 
