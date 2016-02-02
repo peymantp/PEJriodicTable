@@ -72,5 +72,6 @@
     <string name="e85">85\nAt\nAstatine\n210</string>
     <string name="e86">86\nRn\nRadon\n222</string>
     <string name="bigB">Atomic #\nSymbol\nName\nWeight</string>
+    <string name="title_activity_compound_details">CompoundDetails</string>
 
 </resources>

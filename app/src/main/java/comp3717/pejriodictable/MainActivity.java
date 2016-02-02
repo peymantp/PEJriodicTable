@@ -1,17 +1,21 @@
 package comp3717.pejriodictable;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
-
 import static android.app.PendingIntent.getActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    public final static String FIRST_ELEMENT_MESSAGE = "comp3717.pejriodictable.FIRST_ELEMENT";
+    public final static String SECOND_ELEMENT_MESSAGE = "comp3717.pejriodictable.SECOND_ELEMENT";
 
     //left big button
     Button bigButtonLeft;
@@ -31,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         bigButtonRight = (Button)findViewById(R.id.big2);
     }
     @Override
+    //hide nav
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         if (hasFocus) {
@@ -82,5 +87,21 @@ public class MainActivity extends AppCompatActivity {
             bigButtonStateRight = false;
 
         button.setText(R.string.bigB);
+    }
+
+    public void onClickCombine(View view){
+
+        Intent detailsIntent = new Intent(this, CompoundDetails.class);
+
+        Button element1 = (Button) findViewById(R.id.big1);
+        Button element2 = (Button) findViewById(R.id.big2);
+
+        String element1String = element1.getText().toString();
+        String element2String = element2.getText().toString();
+
+        detailsIntent.putExtra(FIRST_ELEMENT_MESSAGE, element1String);
+        detailsIntent.putExtra(SECOND_ELEMENT_MESSAGE, element2String);
+
+        startActivity(detailsIntent);
     }
 }
