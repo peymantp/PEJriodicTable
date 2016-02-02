@@ -7,7 +7,7 @@
     android:id="@+id/detailsView"
     android:orientation="vertical">
 
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/element1"/>
@@ -15,6 +15,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/element2"/>-->
+        android:id="@+id/element2"/>
 
 </LinearLayout>

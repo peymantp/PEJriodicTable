@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         bigButtonRight = (Button)findViewById(R.id.big2);
     }
     @Override
+    //hide nav
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         if (hasFocus) {
