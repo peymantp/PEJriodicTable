@@ -2,6 +2,7 @@ package comp3717.pejriodictable;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     Button bigButtonRight;
     private boolean bigButtonStateRight = false;
 
+    Button combineButton;
+
     View decorView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         decorView = (View)getWindow().getDecorView();
         bigButtonLeft = (Button)findViewById(R.id.big1);
         bigButtonRight = (Button)findViewById(R.id.big2);
+        combineButton = (Button)findViewById(R.id.combineButton);
+        combineButton.setClickable(false);
     }
     @Override
     //hide nav
@@ -48,19 +53,14 @@ public class MainActivity extends AppCompatActivity {
                             | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);}
     }
 
-    public void onClick(View view){
+    public void onClickMetal(View view){
         Button element = (Button)view;
         Button replace;
         String tag, s;
         int ID;
 
-        if(!bigButtonStateLeft){
-            replace = bigButtonLeft;
-            bigButtonStateLeft = true;
-        } else {
-            replace = bigButtonRight;
-            bigButtonStateRight = true;
-        }
+        replace = bigButtonLeft;
+        bigButtonStateLeft = true;
 
         for(int i = 1;i<87;i++){
             if(i==57)
@@ -76,16 +76,53 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
+        if(bigButtonStateLeft == true && bigButtonStateRight == true) {
+            combineButton.setClickable(true);
+            combineButton.setBackgroundResource(R.drawable.table_combinebutton);
+        }
+    }
+
+    public void onClickNonMetal(View view){
+        Button element = (Button)view;
+        Button replace;
+        String tag, s;
+        int ID;
+
+        replace = bigButtonRight;
+        bigButtonStateRight = true;
+
+        for(int i = 1;i<87;i++){
+            if(i==57)
+                i=72;
+
+            if(element.getTag().toString().equals("e"+i)) {
+                tag = element.getTag().toString();
+                ID = getResources().getIdentifier(tag, "string", getPackageName());
+                s = getResources().getString(ID);
+
+                replace.setText(s);
+                Log.d("ID", "e" + i);  //button/string ID
+                break;
+            }
+        }
+        if(bigButtonStateLeft == true && bigButtonStateRight == true) {
+            combineButton.setClickable(true);
+            combineButton.setBackgroundResource(R.drawable.table_combinebutton);
+        }
     }
 
     public void onClickBigButton(View view){
         Button button = (Button)view;
 
-        if(bigButtonLeft.equals(button))
+        if(bigButtonLeft.equals(button)) {
             bigButtonStateLeft = false;
-        else
+            combineButton.setClickable(false);
+            combineButton.setBackgroundResource(R.drawable.table_buttons_metal);
+        }else {
             bigButtonStateRight = false;
-
+            combineButton.setClickable(false);
+            combineButton.setBackgroundResource(R.drawable.table_buttons_metal);
+        }
         button.setText(R.string.bigB);
     }
 

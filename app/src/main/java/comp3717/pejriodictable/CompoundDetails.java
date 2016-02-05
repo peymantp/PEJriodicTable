@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class CompoundDetails extends AppCompatActivity {
-
+    View decorView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -24,6 +24,8 @@ public class CompoundDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compound_details);
 
+        decorView = (View)getWindow().getDecorView();
+
         LinearLayout layout = (LinearLayout) findViewById(R.id.detailsView);
 
         TextView firstElement = new TextView(this);
@@ -33,6 +35,20 @@ public class CompoundDetails extends AppCompatActivity {
         TextView secondElement = new TextView(this);
         secondElement.setText(message2);
         layout.addView(secondElement);
+    }
+
+    @Override
+    //hide nav
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        if (hasFocus) {
+            decorView.setSystemUiVisibility(
+                    View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                            | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                            | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                            | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                            | View.SYSTEM_UI_FLAG_FULLSCREEN
+                            | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);}
     }
 
 }

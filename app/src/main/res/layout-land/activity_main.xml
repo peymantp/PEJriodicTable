@@ -36,11 +36,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="1\nH"
                     android:textAllCaps="false"
                     android:id="@+id/e1"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:clickable="true"
                     android:tag="e1" />
 
@@ -58,22 +58,22 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="3\nLi"
                     android:id="@+id/e3"
                     android:clickable="true"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:tag="e3" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="4\nBe"
                     android:id="@+id/e4"
                     android:clickable="true"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:tag="e4" />
 
             </LinearLayout>
@@ -90,22 +90,22 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="11\nNa"
                     android:id="@+id/e11"
                     android:clickable="true"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:tag="e11" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="12\nMg"
                     android:id="@+id/e12"
                     android:clickable="true"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:tag="e12" />
 
             </LinearLayout>
@@ -158,7 +158,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="3"
-                        android:background="@drawable/table_buttons"
+                        android:background="@drawable/table_buttons_metal"
                         android:textAlignment="viewStart"
                         android:gravity="start"
                         android:text="@string/bigB"
@@ -186,7 +186,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="3"
-                        android:background="@drawable/table_buttons"
+                        android:background="@drawable/table_buttons_nonmetal"
                         android:textAlignment="viewStart"
                         android:gravity="start"
                         android:text="@string/bigB"
@@ -243,12 +243,12 @@
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
-                                android:background="@drawable/table_buttons"
+                                android:background="@drawable/table_buttons_metal"
                                 android:textAlignment="center"
                                 android:gravity="center"
                                 android:text="COMBINE"
-                                android:clickable="true"
-                                android:onClick="onClickCombine"/>
+                                android:onClick="onClickCombine"
+                                android:id="@+id/combineButton" />
 
                         </LinearLayout>
 
@@ -318,10 +318,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="2\nHe"
                     android:id="@+id/e2"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e2" />
 
@@ -339,10 +339,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="5\nB"
                     android:id="@+id/e5"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e5" />
 
@@ -350,10 +350,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="6\nC"
                     android:id="@+id/e6"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e6" />
 
@@ -361,10 +361,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="7\nN"
                     android:id="@+id/e7"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e7" />
 
@@ -372,10 +372,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="8\nO"
                     android:id="@+id/e8"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e8" />
 
@@ -383,10 +383,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="9\nF"
                     android:id="@+id/e9"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e9" />
 
@@ -394,10 +394,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="10\nNe"
                     android:id="@+id/e10"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e10" />
 
@@ -415,10 +415,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_metal"
                     android:text="13\nAl"
                     android:id="@+id/e13"
-                    android:onClick="onClick"
+                    android:onClick="onClickMetal"
                     android:clickable="true"
                     android:tag="e13" />
 
@@ -426,10 +426,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="14\nSi"
                     android:id="@+id/e14"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e14" />
 
@@ -437,10 +437,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="15\nP"
                     android:id="@+id/e15"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e15" />
 
@@ -448,10 +448,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="16\nS"
                     android:id="@+id/e16"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e16" />
 
@@ -459,9 +459,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="17\nCl"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e17" />
 
@@ -469,10 +469,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/table_buttons"
+                    android:background="@drawable/table_buttons_nonmetal"
                     android:text="18\nAr"
                     android:id="@+id/e18"
-                    android:onClick="onClick"
+                    android:onClick="onClickNonMetal"
                     android:clickable="true"
                     android:tag="e18" />
 
@@ -494,10 +494,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="19\nK"
             android:id="@+id/e19"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e19" />
 
@@ -505,10 +505,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="20\nCa"
             android:id="@+id/e20"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e20" />
 
@@ -516,10 +516,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="21\nSc"
             android:id="@+id/e21"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e21" />
 
@@ -527,10 +527,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="22\nTi"
             android:id="@+id/e22"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e22" />
 
@@ -538,10 +538,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="23\nV"
             android:id="@+id/e23"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e23" />
 
@@ -549,10 +549,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="24\nCr"
             android:id="@+id/e24"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e24" />
 
@@ -560,10 +560,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="25\nMn"
             android:id="@+id/e25"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e25" />
 
@@ -571,10 +571,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="26\nFe"
             android:id="@+id/e26"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e26" />
 
@@ -582,10 +582,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="27\nCo"
             android:id="@+id/e27"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e27" />
 
@@ -593,10 +593,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="28\nNi"
             android:id="@+id/e28"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e28" />
 
@@ -604,10 +604,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="29\nCu"
             android:id="@+id/e29"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e29" />
 
@@ -615,10 +615,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="30\nZn"
             android:id="@+id/e30"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e30" />
 
@@ -626,10 +626,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="31\nGa"
             android:id="@+id/e31"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e31" />
 
@@ -637,10 +637,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="32\nGe"
             android:id="@+id/e32"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e32" />
 
@@ -648,10 +648,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="33\nAs"
             android:id="@+id/e33"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e33" />
 
@@ -659,10 +659,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="34\nSe"
             android:id="@+id/e34"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e34" />
 
@@ -670,10 +670,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="35\nBr"
             android:id="@+id/e35"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e35" />
 
@@ -681,10 +681,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="36\nKr"
             android:id="@+id/e36"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e36" />
 
@@ -702,10 +702,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="37\nRb"
             android:id="@+id/e37"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e37" />
 
@@ -713,10 +713,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="38\nSr"
             android:id="@+id/e38"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e38" />
 
@@ -724,10 +724,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="39\nY"
             android:id="@+id/e39"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e39" />
 
@@ -735,10 +735,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="40\nZr"
             android:id="@+id/e40"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e40" />
 
@@ -746,10 +746,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="41\nNb"
             android:id="@+id/e41"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e41" />
 
@@ -757,10 +757,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="42\nMo"
             android:id="@+id/e42"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e42" />
 
@@ -768,10 +768,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="43\nTc"
             android:id="@+id/e43"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e43" />
 
@@ -779,10 +779,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="44\nRu"
             android:id="@+id/e44"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e44" />
 
@@ -790,10 +790,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="45\nRh"
             android:id="@+id/e45"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e45" />
 
@@ -801,10 +801,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="46\nPd"
             android:id="@+id/e46"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e46" />
 
@@ -812,10 +812,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="47\nAg"
             android:id="@+id/e47"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e47" />
 
@@ -823,10 +823,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="48\nCd"
             android:id="@+id/e48"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e48" />
 
@@ -834,10 +834,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="49\nIn"
             android:id="@+id/e49"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e49" />
 
@@ -845,10 +845,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="50\nSn"
             android:id="@+id/e50"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e50" />
 
@@ -856,10 +856,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="51\nSb"
             android:id="@+id/e51"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e51" />
 
@@ -867,10 +867,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="52\nTe"
             android:id="@+id/e52"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e52" />
 
@@ -878,10 +878,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="53\nI"
             android:id="@+id/e53"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e53" />
 
@@ -889,10 +889,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="54\nXe"
             android:id="@+id/e54"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e54" />
 
@@ -910,10 +910,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="55\nCs"
             android:id="@+id/e55"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e55" />
 
@@ -921,10 +921,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="56\nBa"
             android:id="@+id/e56"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e56" />
 
@@ -937,10 +937,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="72\nHf"
             android:id="@+id/e72"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e72" />
 
@@ -948,10 +948,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="73\nTa"
             android:id="@+id/e73"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e73" />
 
@@ -959,10 +959,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="74\nW"
             android:id="@+id/e74"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e74" />
 
@@ -970,10 +970,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="75\nRe"
             android:id="@+id/e75"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e75" />
 
@@ -981,10 +981,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="76\nOs"
             android:id="@+id/e76"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e76" />
 
@@ -992,10 +992,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="77\nIr"
             android:id="@+id/e77"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e77" />
 
@@ -1003,10 +1003,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="78\nPt"
             android:id="@+id/e78"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e78" />
 
@@ -1014,10 +1014,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="79\nAu"
             android:id="@+id/e79"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e79" />
 
@@ -1025,10 +1025,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="80\nHg"
             android:id="@+id/e80"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e80" />
 
@@ -1036,10 +1036,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="81\nTl"
             android:id="@+id/e81"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e81" />
 
@@ -1047,10 +1047,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="82\nPb"
             android:id="@+id/e82"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e82" />
 
@@ -1058,10 +1058,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_metal"
             android:text="83\nBi"
             android:id="@+id/e83"
-            android:onClick="onClick"
+            android:onClick="onClickMetal"
             android:clickable="true"
             android:tag="e81" />
 
@@ -1069,10 +1069,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="84\nPo"
             android:id="@+id/e84"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e84" />
 
@@ -1080,10 +1080,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="85\nAt"
             android:id="@+id/e85"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e85" />
 
@@ -1091,10 +1091,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/table_buttons"
+            android:background="@drawable/table_buttons_nonmetal"
             android:text="86\nRn"
             android:id="@+id/e86"
-            android:onClick="onClick"
+            android:onClick="onClickNonMetal"
             android:clickable="true"
             android:tag="e86" />
 
