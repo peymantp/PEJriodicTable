@@ -1,17 +1,10 @@
 package comp3717.pejriodictable;
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-import static android.app.PendingIntent.getActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button combineButton;
 
+    DataDBHelper mDbHelper;
+
     View decorView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         bigButtonRight = (Button)findViewById(R.id.big2);
         combineButton = (Button)findViewById(R.id.combineButton);
         combineButton.setClickable(false);
+        new InsertData(MainActivity.this, this).execute("");
     }
     @Override
     //hide nav
@@ -67,12 +63,9 @@ public class MainActivity extends AppCompatActivity {
                 i=72;
 
             if(element.getTag().toString().equals("e"+i)) {
-                tag = element.getTag().toString();
-                ID = getResources().getIdentifier(tag, "string", getPackageName());
-                s = getResources().getString(ID);
-
-                replace.setText(s);
-                Log.d("ID", "e" + i);  //button/string ID
+                RetrieveData getElement =new RetrieveData(this, Integer.toString(i));
+                String elementInfo[] = getElement.returnResult();
+                replace.setText(elementInfo[1] + "\n" + elementInfo[0] + "\n" + elementInfo[2] + "\n" + elementInfo[3]);
                 break;
             }
         }
@@ -96,12 +89,9 @@ public class MainActivity extends AppCompatActivity {
                 i=72;
 
             if(element.getTag().toString().equals("e"+i)) {
-                tag = element.getTag().toString();
-                ID = getResources().getIdentifier(tag, "string", getPackageName());
-                s = getResources().getString(ID);
-
-                replace.setText(s);
-                Log.d("ID", "e" + i);  //button/string ID
+                RetrieveData getElement =new RetrieveData(this, Integer.toString(i));
+                String elementInfo[] = getElement.returnResult();
+                replace.setText(elementInfo[1] + "\n" + elementInfo[0] + "\n" + elementInfo[2] + "\n" + elementInfo[3]);
                 break;
             }
         }
