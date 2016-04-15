@@ -64,24 +64,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/textViewElementName"
             android:text="Name"
-            android:layout_weight="1.2"/>
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/metalName"
-            android:text="metalName"
-            android:layout_weight="4.1"/>
+            android:text="aaaaaa"
+            android:layout_weight="4.08"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/compoundName"
-            android:text="compoundName"
+            android:text="                     "
             android:layout_alignStart="@+id/textView"
             android:layout_alignParentStart="false"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="4.66" />
+            android:layout_weight="5.24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,21 +107,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/Symbol"
             android:text="Symbol"
-            android:layout_weight="0.72"/>
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/metalSymbol"
-            android:text="beep1"
-            android:layout_weight="5.34"/>
+            android:text="99"
+            android:layout_weight="4.08"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/compoundSymbol"
-            android:text="compoundSymbol"
-            android:layout_weight="4.31" />
+            android:layout_weight="5.24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -146,21 +145,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/Number"
             android:text="Number"
-            android:layout_weight="0.72"/>
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/metalNumber"
-            android:text="metalNumber"
+            android:text="99"
             android:layout_weight="4.08"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/compoundNumber"
-            android:text="compoundNumber"
-            android:layout_weight="5.25" />
+            android:layout_weight="5.24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -185,21 +183,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/Weight"
             android:text="Weight"
-            android:layout_weight="0.72"/>
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/metalWeight"
-            android:text="metalNumber"
+            android:text="99"
             android:layout_weight="4.08"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/compoundWeight"
-            android:text="compoundNumber"
-            android:layout_weight="5.43" />
+            android:layout_weight="5.24" />
 
         <TextView
             android:layout_width="wrap_content"

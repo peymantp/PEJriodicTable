@@ -25,28 +25,59 @@ public class CompoundDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compound_details);
 
-        decorView = (View)getWindow().getDecorView();
+        decorView = (View) getWindow().getDecorView();
 
         LinearLayout layout = (LinearLayout) findViewById(R.id.detailsView);
-
+        //Number
         String leftAtomicNum = message1.split("\n")[0];
         String rightAtomicNum = message2.split("\n")[0];
+        TextView metalNumber = (TextView) findViewById(R.id.metalNumber);
+        metalNumber.setText(leftAtomicNum);
+        TextView gasNumber = (TextView) findViewById(R.id.gasNumber);
+        gasNumber.setText(rightAtomicNum);
 
-        Log.d("compoundTemp", leftAtomicNum);
-        Log.d("compoundTemp", rightAtomicNum);
+        //Names
+        TextView metalName = (TextView) findViewById(R.id.metalName);
+        metalName.setText(message1.split("\n")[2]);
+        TextView gasName = (TextView) findViewById(R.id.gasName);
+        gasName.setText(message2.split("\n")[2]);
 
-        RetrieveData getLeftElement =new RetrieveData(this, leftAtomicNum);
-        RetrieveData getRightElement =new RetrieveData(this, rightAtomicNum);
+        //Symbol
+        TextView metalSymbol = (TextView) findViewById(R.id.metalSymbol);
+        metalSymbol.setText(message1.split("\n")[1]);
+        TextView gasSymbol = (TextView) findViewById(R.id.gasSymbol);
+        gasSymbol.setText(message2.split("\n")[1]);
+
+        //Weight
+        TextView metalWeight = (TextView) findViewById(R.id.metalWeight);
+        metalWeight.setText(message1.split("\n")[3]);
+        TextView gasWeight = (TextView) findViewById(R.id.gasWeight);
+        gasWeight.setText(message2.split("\n")[3]);
+
+        RetrieveData getLeftElement = new RetrieveData(this, leftAtomicNum);
+        RetrieveData getRightElement = new RetrieveData(this, rightAtomicNum);
 
         String leftElementInfo[] = getLeftElement.returnResult();
         String rightElementInfo[] = getRightElement.returnResult();
 
-        TextView compound = (TextView)findViewById(R.id.compoundSymbol);
+        TextView compound = (TextView) findViewById(R.id.compoundSymbol);
 
-<<<<<<< HEAD
+        //calclute compound charge for symbol
         if (leftElementInfo[4] != null && rightElementInfo[4] != null) {
+            int lhs = 1, rhs = 1;
             int leftCharge = Integer.parseInt(leftElementInfo[4]);
             int rightCharge = Integer.parseInt(rightElementInfo[4]);
+
+            int leftTotalCharge = lhs * leftCharge;
+            int rightTotalCharge = rhs * rightCharge;
+
+            while (leftTotalCharge != rightTotalCharge) {
+                if (leftTotalCharge > rightTotalCharge) {
+                    rightTotalCharge = (++rhs) * rightCharge;
+                } else {
+                    leftTotalCharge = (++lhs) * leftCharge;
+                }
+            }
 
             int[] counts = balance(leftCharge, rightCharge);
             if (counts[0] == 1 && counts[1] == 1) {
@@ -57,33 +88,19 @@ public class CompoundDetails extends AppCompatActivity {
                 compound.setText(leftElementInfo[0] + rightElementInfo[0] + counts[1]);
             } else {
                 compound.setText(leftElementInfo[0] + counts[0] + rightElementInfo[0] + counts[1]);
-=======
-        int lhs = 1, rhs = 1;
-        int leftCharge = Integer.parseInt(leftElementInfo[4]);
-        int rightCharge = Math.abs(Integer.parseInt(rightElementInfo[4]));
-        int leftTotalCharge = lhs*leftCharge;
-        int rightTotalCharge = rhs*rightCharge;
+            }
 
-        while(leftTotalCharge!=rightTotalCharge) {
-            if(leftTotalCharge > rightTotalCharge){
-                rightTotalCharge = (++rhs)*rightCharge;
-            }else {
-                leftTotalCharge = (++lhs)*leftCharge;
->>>>>>> master
+            if (lhs != 1 && rhs != 1) {
+                compound.setText(leftElementInfo[0] + rightElementInfo[0]);
+            } else if (rhs == 1) {
+                compound.setText(leftElementInfo[0] + lhs + rightElementInfo[0]);
+            } else if (lhs == 1) {
+                compound.setText(leftElementInfo[0] + rightElementInfo[0] + rhs);
+            } else {
+                compound.setText(leftElementInfo[0] + lhs + rightElementInfo[0] + rhs);
             }
         }
-
-        if(lhs != 1 && rhs != 1) {
-            compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0]);
-        } else if (rhs == 1) {
-            compound.setText("\n" + leftElementInfo[0] + lhs + rightElementInfo[0]);
-        } else if (lhs == 1) {
-            compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0] + rhs);
-        } else {
-            compound.setText("\n" + leftElementInfo[0] + lhs + rightElementInfo[0] + rhs);
-        }
     }
-
     @Override
     //hide nav
     public void onWindowFocusChanged(boolean hasFocus) {
