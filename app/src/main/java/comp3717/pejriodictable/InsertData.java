@@ -69,8 +69,9 @@ class InsertData
         values = new ContentValues();
         values.put(DataContract.Data.COLUMN_NAME_ATOMIC_NUM, "5");
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "B");
-        values.put(DataContract.Data.COLUMN_NAME_NAME, "Baron");
+        values.put(DataContract.Data.COLUMN_NAME_NAME, "Boron");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "10.81");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -78,6 +79,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "C");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Carbon");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "12.011");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -141,6 +143,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Si");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Silicon");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "28.085");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -196,6 +199,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Sc");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Scandium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "44.955908");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -203,6 +207,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ti");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Titanium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "47.867");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -210,6 +215,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "V");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Vandium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "50.9415");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "5");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -217,6 +223,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Cr");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Chromium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "51.9961");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -224,6 +231,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Mn");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Maganese");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "54.938044");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -231,6 +239,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Fe");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Iron");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "55.845");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -238,6 +247,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Co");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Cobalt");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "58.933194");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -245,6 +255,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ni");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Nickel");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "58.6934");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -252,6 +263,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Cu");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Copper");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "63.546");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -275,6 +287,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ge");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Germanium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "72.63");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -282,6 +295,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "As");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Arsenic");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "74.921595");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -329,6 +343,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Y");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Yttrium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "88.90584");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -336,6 +351,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Zr");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Zirconium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "91.224");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -343,6 +359,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Nb");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Niobium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "92.90637");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "5");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -350,6 +367,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Mo");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Molybdenum");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "95.95");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -357,6 +375,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Tc");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Technetium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "98");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -364,6 +383,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ru");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Ruthenium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "101.07");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -371,6 +391,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Rh");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Rhodium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "102.90550");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -378,6 +399,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Pd");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Palladium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "106.42");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -401,6 +423,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "In");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Indium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "114.818");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -408,6 +431,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Sn");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Tin");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "118.71");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -415,6 +439,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Sb");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Antimony");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "121.76");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -422,6 +447,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Te");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Tellurium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "127.6");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -461,6 +487,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Hf");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Hafnium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "178.49");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -468,6 +495,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ta");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Tantalum");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "180.94788");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "5");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -475,6 +503,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "W");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Tungsten");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "183.84");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -482,6 +511,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Re");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Rhenium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "186.207");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -489,6 +519,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Os");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Osmium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "190.23");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "4");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -496,6 +527,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ir");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Irdium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "192.217");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -503,6 +535,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Pt");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Platinum");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "195.084");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -510,6 +543,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Au");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Gold");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "196.966569");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -517,6 +551,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Hg");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Mercury");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "200");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "1");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -524,6 +559,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Ti");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Thallium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "204.38");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "1");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -531,6 +567,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Pb");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Lead");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "207.2");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -538,6 +575,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Bi");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Bismuth");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "208.98040");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "3");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -545,6 +583,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "Po");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Polonium");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "209");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "2");
         allValues[i++] = values;
 
         values = new ContentValues();
@@ -552,6 +591,7 @@ class InsertData
         values.put(DataContract.Data.COLUMN_NAME_SYMBOL, "At");
         values.put(DataContract.Data.COLUMN_NAME_NAME, "Astatine");
         values.put(DataContract.Data.COLUMN_NAME_WEIGHT, "210");
+        values.put(DataContract.Data.COLUMN_NAME_CHARGE, "-1");
         allValues[i++] = values;
 
         values = new ContentValues();
