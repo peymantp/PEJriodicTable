@@ -51,22 +51,28 @@ public class CompoundDetails extends AppCompatActivity {
 
         TextView compound = new TextView(this);
 
-        if (leftElementInfo[4] != null && rightElementInfo[4] != null) {
-            int leftCharge = Integer.parseInt(leftElementInfo[4]);
-            int rightCharge = Integer.parseInt(rightElementInfo[4]);
+        int lhs = 1, rhs = 1;
+        int leftCharge = Integer.parseInt(leftElementInfo[4]);
+        int rightCharge = Math.abs(Integer.parseInt(rightElementInfo[4]));
+        int leftTotalCharge = lhs*leftCharge;
+        int rightTotalCharge = rhs*rightCharge;
 
-            int[] counts = balance(leftCharge, rightCharge);
-            if (counts[0] == 1 && counts[1] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0]);
-            } else if (counts[1] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + counts[0] + rightElementInfo[0]);
-            } else if (counts[0] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0] + counts[1]);
-            } else {
-                compound.setText("\n" + leftElementInfo[0] + counts[0] + rightElementInfo[0] + counts[1]);
+        while(leftTotalCharge!=rightTotalCharge) {
+            if(leftTotalCharge > rightTotalCharge){
+                rightTotalCharge = (++rhs)*rightCharge;
+            }else {
+                leftTotalCharge = (++lhs)*leftCharge;
             }
+        }
+
+        if(lhs != 1 && rhs != 1) {
+            compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0]);
+        } else if (rhs == 1) {
+            compound.setText("\n" + leftElementInfo[0] + lhs + rightElementInfo[0]);
+        } else if (lhs == 1) {
+            compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0] + rhs);
         } else {
-            compound.setText("NO CHARGE FOUND");
+            compound.setText("\n" + leftElementInfo[0] + lhs + rightElementInfo[0] + rhs);
         }
 
         layout.addView(compound);
