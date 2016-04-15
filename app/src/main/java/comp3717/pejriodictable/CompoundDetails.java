@@ -29,14 +29,6 @@ public class CompoundDetails extends AppCompatActivity {
 
         LinearLayout layout = (LinearLayout) findViewById(R.id.detailsView);
 
-        TextView firstElement = new TextView(this);
-        firstElement.setText(message1);
-        layout.addView(firstElement);
-
-        TextView secondElement = new TextView(this);
-        secondElement.setText("\n" + message2);
-        layout.addView(secondElement);
-
         String leftAtomicNum = message1.split("\n")[0];
         String rightAtomicNum = message2.split("\n")[0];
 
@@ -49,7 +41,7 @@ public class CompoundDetails extends AppCompatActivity {
         String leftElementInfo[] = getLeftElement.returnResult();
         String rightElementInfo[] = getRightElement.returnResult();
 
-        TextView compound = new TextView(this);
+        TextView compound = (TextView)findViewById(R.id.compoundSymbol);
 
         if (leftElementInfo[4] != null && rightElementInfo[4] != null) {
             int leftCharge = Integer.parseInt(leftElementInfo[4]);
@@ -57,19 +49,17 @@ public class CompoundDetails extends AppCompatActivity {
 
             int[] counts = balance(leftCharge, rightCharge);
             if (counts[0] == 1 && counts[1] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0]);
+                compound.setText(leftElementInfo[0] + rightElementInfo[0]);
             } else if (counts[1] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + counts[0] + rightElementInfo[0]);
+                compound.setText(leftElementInfo[0] + counts[0] + rightElementInfo[0]);
             } else if (counts[0] == 1) {
-                compound.setText("\n" + leftElementInfo[0] + rightElementInfo[0] + counts[1]);
+                compound.setText(leftElementInfo[0] + rightElementInfo[0] + counts[1]);
             } else {
-                compound.setText("\n" + leftElementInfo[0] + counts[0] + rightElementInfo[0] + counts[1]);
+                compound.setText(leftElementInfo[0] + counts[0] + rightElementInfo[0] + counts[1]);
             }
         } else {
             compound.setText("NO CHARGE FOUND");
         }
-
-        layout.addView(compound);
     }
 
     @Override
